@@ -14,3 +14,4 @@ t/skip.t
 t/success.t
 t/todo.t
 META.yml                                 Module meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

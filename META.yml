@@ -1,22 +1,23 @@
---- #YAML:1.0
-name:               Test
-version:            1.25_02
-abstract:           provides a simple framework for writing test scripts
-author:  []
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+---
+abstract: 'provides a simple framework for writing test scripts'
+author:
+  - unknown
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    File::Spec:     0
-    Test::Harness:  1.1601
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.49_01
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  File::Spec: 0
+  Test::Harness: 1.1601
+version: 1.26
